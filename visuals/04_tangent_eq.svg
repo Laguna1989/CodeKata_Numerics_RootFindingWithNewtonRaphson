@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="95.145683mm"
+   height="79.644051mm"
+   viewBox="0 0 95.145683 79.644051"
+   version="1.1"
+   id="svg1455"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="04_tangent_eq.svg"
+   inkscape:export-filename="C:\projects\CodeKata_Numerics_NewtonRaphson\visuals\04_tangent_eq.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs1449">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path2011"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="40.519346"
+     inkscape:cy="117.38545"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="false" />
+  <metadata
+     id="metadata1452">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-77.915252,-52.31488)">
+    <path
+       id="path2697"
+       title="cos(x)-x"
+       d="M 86.601986,86.469437 H 167.11092 M 96.263057,62.244042 c 0.536726,0.865168 1.073452,1.687601 1.610179,2.461888 0.536726,0.774286 1.073452,1.500127 1.610178,2.174061 0.536726,0.673934 1.073456,1.295644 1.610176,1.863754 0.53673,0.568111 1.07345,1.082301 1.61018,1.543338 0.53673,0.461036 1.07346,0.868606 1.61018,1.225586 0.53673,0.35698 1.07346,0.663078 1.61018,0.923167 0.53673,0.260089 1.07345,0.47391 1.61018,0.648137 0.53673,0.174227 1.07345,0.308643 1.61018,0.41146 0.53673,0.102817 1.07345,0.173868 1.61018,0.222573 0.53672,0.0487 1.07345,0.07496 1.61018,0.089 0.53672,0.01405 1.07345,0.01585 1.61017,0.01608 0.53673,2.3e-4 1.07346,-0.0011 1.61018,0.0067 0.53673,0.0078 1.07346,0.02481 1.61018,0.06126 0.53673,0.03646 1.07345,0.09251 1.61018,0.177566 0.53673,0.08506 1.07345,0.199319 1.61018,0.350984 0.53673,0.151665 1.07345,0.340977 1.61018,0.574601 0.53672,0.233623 1.07345,0.511838 1.61018,0.839503 0.53672,0.327666 1.07345,0.705089 1.61017,1.135131 0.53673,0.430043 1.07346,0.913024 1.61018,1.449697 0.53673,0.536672 1.07346,1.127356 1.61018,1.77066 0.53673,0.643305 1.07345,1.339539 1.61018,2.085226 0.53673,0.745688 1.07345,1.541113 1.61018,2.380854 0.53672,0.83974 1.07345,1.724043 1.61018,2.645756 0.53672,0.921712 1.07345,1.881037 1.61018,2.869373 0.53672,0.988337 1.07345,2.005836 1.61017,3.042796 0.53673,1.03696 1.07346,2.09346 1.61018,3.15909 0.53673,1.06564 1.07345,2.14043 1.61018,3.21365 0.53673,1.073227 1.07345,2.144847 1.61018,3.204277 0.53673,1.05943 1.07345,2.10656 1.61018,3.13135 0.53672,1.02479 1.07345,2.02709 1.61018,2.99778 0.53672,0.9707 1.07345,1.9096 1.61018,2.8089 0.53672,0.89931 1.07345,1.75877 1.61017,2.57222 0.53673,0.81346 1.07346,1.58062 1.61018,2.29719 0.53673,0.71658 1.07345,1.38225 1.61018,1.99477 0.53673,0.61252 1.07345,1.17157 1.61018,1.67702 0.53673,0.50545 1.07345,0.95698 1.61018,1.3566 0.53672,0.39963 1.07345,0.74704 1.61018,1.0463 0.53672,0.29926 1.07345,0.5501 1.61017,0.75847 0.53673,0.20837 1.07346,0.37403 1.61018,0.5046 0.53673,0.13056 1.07346,0.22584 1.61018,0.2948 0.53673,0.069 1.07345,0.11145 1.61018,0.13744 0.53673,0.026 1.07345,0.0354 1.61018,0.0388 0.53673,0.003 1.07345,7.5e-4 1.61018,0.003 0.53672,0.002 1.07345,0.009 1.61018,0.0309"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#ff2323;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccssscccssccssccscccccsccccccscccccssccccccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="M 86.601986,86.469437 H 167.11092"
+       id="path2708"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#180dff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 156.3921,127.4648 125.9902,81.494441"
+       id="path2722"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888741px;line-height:1.25;font-family:Avenger;-inkscape-font-specification:Avenger;letter-spacing:0px;word-spacing:0px;fill:#180dff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="126.12383"
+       y="106.08324"
+       id="text2726"><tspan
+         sodipodi:role="line"
+         id="tspan2724"
+         x="126.12383"
+         y="106.08324"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#180dff;stroke-width:0.26458332">T(x)=</tspan></text>
+    <path
+       style="fill:none;stroke:#02f576;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 148.17356,114.63586 V 81.962162"
+       id="path2728"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888741px;line-height:1.25;font-family:Avenger;-inkscape-font-specification:Avenger;letter-spacing:0px;word-spacing:0px;fill:#02f576;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="145.5994"
+       y="80.778908"
+       id="text2726-0"><tspan
+         sodipodi:role="line"
+         id="tspan2724-9"
+         x="145.5994"
+         y="80.778908"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#02f576;stroke-width:0.26458332">x0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.63888741px;line-height:1.25;font-family:Avenger;-inkscape-font-specification:Avenger;letter-spacing:0px;word-spacing:0px;fill:#180dff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="90.878059"
+       y="111.89226"
+       id="text2726-9"><tspan
+         sodipodi:role="line"
+         id="tspan2724-5"
+         x="90.878059"
+         y="111.89226"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#180dff;stroke-width:0.26458332">= y0+(x-x0)*f'(x)</tspan></text>
+  </g>
+</svg>
