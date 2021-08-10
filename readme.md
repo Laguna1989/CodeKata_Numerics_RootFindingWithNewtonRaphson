@@ -11,7 +11,7 @@ rootfinding yields an approximated solution for the equation, by solving `0 = co
 
 ## The Newton-Raphson Method
 
-TODO Picture wih explanation
+![ani](https://user-images.githubusercontent.com/2394228/128812604-0d70c463-d239-45ea-93f3-7363b4e28fe1.gif)
 
 We know that a function `f(x)` has a zero at `x'` close to a starting value of `x0`. The idea of the Newton-Raphson
 methods is to make use of the first derivative `f'(x)` to calculate an approximation of `x'` iteratively.
