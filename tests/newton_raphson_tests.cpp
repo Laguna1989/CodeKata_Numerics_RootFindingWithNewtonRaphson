@@ -26,7 +26,6 @@ TEST(Newton, sine)
 class NewtonWithStartParamTestFixture : public ::testing::TestWithParam<double> {
 };
 
-// TODO parametrize test for various starting conditions
 TEST_P(NewtonWithStartParamTestFixture, transcendentFunction)
 {
     double const x0 = GetParam();
