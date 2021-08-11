@@ -1,6 +1,6 @@
 # Overview
 
-This is a Code Kata about numerical rootfinding with the Newton-Raphson method. Please check out the
+This is a Code Nummy about numerical rootfinding with the Newton-Raphson method. Please check out the
 other [Code Nummies](https://github.com/Laguna1989/CodeNummies_Overview).
 
 # Theory
@@ -9,6 +9,10 @@ other [Code Nummies](https://github.com/Laguna1989/CodeNummies_Overview).
 
 Rootfinding is a central problem in maths. If there is no analytic solution for an equation, e.g. `x = cos(x)`, numeric
 rootfinding yields an approximated solution for the equation, by solving `0 = cos(x) - x`.
+
+Other algorithms for rootfinding are
+the [Bisection method](https://github.com/Laguna1989/CodeKata_Numerics_RootFindingWithBisection)
+and the [Secant method](https://github.com/Laguna1989/CodeKata_Numerics_RootFindingWithSecant).
 
 ## The Newton-Raphson Method
 
