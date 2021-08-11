@@ -1,6 +1,7 @@
 # Overview
 
-This is a Code Kata about numerical rootfinding with the Newton-Raphson method.
+This is a Code Kata about numerical rootfinding with the Newton-Raphson method. Please check out the
+other [Code Nummies](https://github.com/Laguna1989/CodeNummies_Overview).
 
 # Theory
 
