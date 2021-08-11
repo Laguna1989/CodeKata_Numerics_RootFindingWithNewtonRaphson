@@ -31,8 +31,8 @@ TEST_P(NewtonWithStartParamTestFixture, transcendentFunction)
     double const x0 = GetParam();
     double const delta = 0.0001;
     double const x_root = 0.739085;
-    auto f = [](double x) { return cos(x) - x; };
-    auto d = [](double x) { return -sin(x) - 1; };
+    auto const f = [](double x) { return cos(x) - x; };
+    auto const d = [](double x) { return -sin(x) - 1; };
 
     auto const x = newton_raphson(f, d, x0, delta);
     ASSERT_LT(abs(x - x_root), 0.0001);
