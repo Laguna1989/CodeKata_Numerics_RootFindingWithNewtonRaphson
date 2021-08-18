@@ -19,12 +19,12 @@ and the [Secant method](https://github.com/Laguna1989/CodeKata_Numerics_RootFind
 ![ani](https://user-images.githubusercontent.com/2394228/128812604-0d70c463-d239-45ea-93f3-7363b4e28fe1.gif)
 
 We know that a function `f(x)` has a zero at `x'` close to a starting value of `x0`. The idea of the Newton-Raphson
-methods is to make use of the first derivative `f'(x)` to calculate an approximation of `x'` iteratively.
+methods is to make use of the first derivative `f'(x) = d(x)` to calculate an approximation of `x'` iteratively.
 
-The tangent at position `x0` is given via `T(x) = f(x0) + (x-x0) * f'(x0)`. The Newton-Raphson method uses the zero of
+The tangent at position `x0` is given via `T(x) = f(x0) + (x-x0) * d(x0)`. The Newton-Raphson method uses the zero of
 the tangent as the next iteration value. This is achieved by setting `T(x1) = 0` and solving for `x1`, which yields
 
-`x1 = x0 - f(x)/f'(x)`
+`x1 = x0 - f(x)/d(x)`
 
 The iteration ends, when `f(x)` is smaller than the accepted error `delta`.
 
@@ -37,16 +37,16 @@ The iteration ends, when `f(x)` is smaller than the accepted error `delta`.
 ### Limitations
 
 * Needs a good starting point
-* Knowledge needed about `f(x)` **and** `f'(x)`
-* Does not work in some edge cases, e.g. `f'(x)` very close to zero
+* Knowledge needed about `f(x)` **and** `d(x)`
+* Does not work in some edge cases, e.g. `d(x)` very close to zero
 
 # Exercise
 
 ## 1. Newton-Raphson implementation
 
 Replace the fake implementation
-function `newton_raphson(std::function<double(double)> const& f, std::function<double(double)> const& d, double x0, double delta)`
-in `src/newton_raphson.cpp`. The tests in `tests/newton_raphson_tests.cpp` will show you if your implementation is
+function `x = newton_raphson(f, d, x0, delta)`
+in `src/newton_raphson`. The tests in `tests/newton_raphson_test` will show you if your implementation is
 correct.
 
 Feel free to test the bisection with your own functions.
